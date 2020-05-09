@@ -1,0 +1,42 @@
+/* Globals*/
+body {
+    background: #862af0;
+ }
+nav {
+    margin-top: 40px;
+}
+
+/* Drop Down */
+nav .container {
+  list-style: none;
+  overflow: hidden;
+  height: 172px;
+  background-color: #ffffff;
+  font-family: Tahoma;
+  width: 500px;
+  margin: 0 auto;
+  padding: 9px;
+  margin-bottom: 15px;
+  text-align: center;
+ /*  -webkit-transition: height 0.3s ease;
+          transition: height 0.3s ease; */
+}
+
+nav .container.closed {
+  height: 43px;
+}
+
+
+nav .container li a {
+  display: block;
+  color: #c4419c;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav .container li:first-child a:after {
+  content: "\25BC";
+  float: right;
+  margin-left: -30px;
+  margin-right: 5px;
+}
